@@ -1,12 +1,19 @@
 Triangle
 ========
-By starting at the top of the triangle and moving to adjacent numbers on the row below, the maximum total from top to bottom is 27.
+By starting at the top of the triangle and adding one of the two adjacent numbers on the row below, find the maximum possible total.
 
           5
-        9   6
+        9   2
       4   6   8
-    0   7   1   5
+    0   7   1   3
     
-I.e. 5 + 9 + 6 + 7 = 27.
+Using the triangle above: 5 + 9 + 6 + 7 = 27
 
 Write a program in a language of your choice to find the maximum total from top to bottom in triangle.txt, a text file containing a triangle with 100 rows.
+
+Usage
+=====
+
+```
+java Triangle <file>
+```
